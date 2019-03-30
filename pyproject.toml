@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "virus"
+version = "0.1.0"
+description = "It's a virus which will try to make real mess in your home directory"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pytest = "^4.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
